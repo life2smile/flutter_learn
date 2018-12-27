@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class FadeInAndOutDemo extends StatelessWidget {
+class FadeInAndOut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final String appTile = "Fade in and out Demo";
