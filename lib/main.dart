@@ -3,6 +3,7 @@ import 'package:flutter_app_learn/animation/FadeInAndOut.dart';
 import 'package:flutter_app_learn/drawer/CustomDrawer.dart';
 import 'package:flutter_app_learn/orientation/OrientationDemo.dart';
 import 'package:flutter_app_learn/snackBar/CustomSnackBar.dart';
+import 'package:flutter_app_learn/tabs/MyTab.dart';
 import 'package:flutter_app_learn/theme/MyTheme.dart';
 
 void main(){
@@ -13,4 +14,5 @@ void main(){
   runApp(CustomSnackBar());
   runApp(OrientationDemo());
   runApp(MyTheme());
+  runApp(MyTab());
 }
