@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_learn/animation/FadeInAndOut.dart';
 import 'package:flutter_app_learn/drawer/CustomDrawer.dart';
+import 'package:flutter_app_learn/gestures/HandleTaps.dart';
+import 'package:flutter_app_learn/gestures/TouchRipple.dart';
 import 'package:flutter_app_learn/orientation/OrientationDemo.dart';
 import 'package:flutter_app_learn/snackBar/CustomSnackBar.dart';
 import 'package:flutter_app_learn/tabs/MyTab.dart';
@@ -21,4 +23,6 @@ void main(){
   runApp(FormValidateApp());
   runApp(FocusTextField());
   runApp(ListenTextFieldChange());
+  runApp(TouchRipple());
+  runApp(HandleTaps());
 }
