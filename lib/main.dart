@@ -4,6 +4,7 @@ import 'package:flutter_app_learn/drawer/CustomDrawer.dart';
 import 'package:flutter_app_learn/gestures/HandleTaps.dart';
 import 'package:flutter_app_learn/gestures/SwipeToDismiss.dart';
 import 'package:flutter_app_learn/gestures/TouchRipple.dart';
+import 'package:flutter_app_learn/images/FadeInImg.dart';
 import 'package:flutter_app_learn/images/InternetImg.dart';
 import 'package:flutter_app_learn/orientation/OrientationDemo.dart';
 import 'package:flutter_app_learn/snackBar/CustomSnackBar.dart';
@@ -29,4 +30,5 @@ void main(){
   runApp(HandleTaps());
   runApp(SwipeToDismiss());
   runApp(InternetImg());
+  runApp(FadeInImg());
 }
