@@ -6,6 +6,7 @@ import 'package:flutter_app_learn/snackBar/CustomSnackBar.dart';
 import 'package:flutter_app_learn/tabs/MyTab.dart';
 import 'package:flutter_app_learn/textField/FocusTextField.dart';
 import 'package:flutter_app_learn/textField/FormValidate.dart';
+import 'package:flutter_app_learn/textField/ListenTextFieldChange.dart';
 import 'package:flutter_app_learn/theme/MyTheme.dart';
 
 void main(){
@@ -19,4 +20,5 @@ void main(){
   runApp(MyTab());
   runApp(FormValidateApp());
   runApp(FocusTextField());
+  runApp(ListenTextFieldChange());
 }
