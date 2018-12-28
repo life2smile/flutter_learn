@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_learn/animation/FadeInAndOut.dart';
 import 'package:flutter_app_learn/drawer/CustomDrawer.dart';
+import 'package:flutter_app_learn/formValide/FormValidate.dart';
 import 'package:flutter_app_learn/orientation/OrientationDemo.dart';
 import 'package:flutter_app_learn/snackBar/CustomSnackBar.dart';
 import 'package:flutter_app_learn/tabs/MyTab.dart';
@@ -15,4 +16,5 @@ void main(){
   runApp(OrientationDemo());
   runApp(MyTheme());
   runApp(MyTab());
+  runApp(FormValidateApp());
 }
